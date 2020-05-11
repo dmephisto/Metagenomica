@@ -17,23 +17,23 @@ Las diferencias observadas durante estos dos análisis fueron las siguientes.
 
 Al utilizar un min_length= 200:
 
-> Durante el pre-procesamiento 7,237 reads fueron descartadas por ser muy cortas (< 200 bp) y al final se obtuvieron 288,672 reads de salida ya que fueron validas.
+* Durante el pre-procesamiento 7,237 reads fueron descartadas por ser muy cortas (< 200 bp) y al final se obtuvieron 288,672 reads de salida ya que fueron validas.
     
-> Durante el primer filtrado entraron 288,672 reads de las cuales 59,184 pasaron, ademas se obtuvieron 1,536 OTUs validadas y  252,903 reads fueron asignadas a las OTUs (88%).
+* Durante el primer filtrado entraron 288,672 reads de las cuales 59,184 pasaron, ademas se obtuvieron 1,536 OTUs validadas y  252,903 reads fueron asignadas a las OTUs (88%).
     
-> Al hacer el filtrado de la tabla de OTU (index bleed) se observo que en un inicio esta contenía 12 muestras, 1,536 OTUs y 252,903 reads y al final del filtrado la tabla permaneció igual a excepción de los reads los cuales disminuyeron a 252,350.
+* Al hacer el filtrado de la tabla de OTU (index bleed) se observo que en un inicio esta contenía 12 muestras, 1,536 OTUs y 252,903 reads y al final del filtrado la tabla permaneció igual a excepción de los reads los cuales disminuyeron a 252,350.
     
-> Por último, al hacer la asignación de taxonomía a cada OTU se encontraron 279 OTUs que no pertenecían a hongos y se escribieron 1257 coincidencias (con hongos) en la tabla de OTU.
+* Por último, al hacer la asignación de taxonomía a cada OTU se encontraron 279 OTUs que no pertenecían a hongos y se escribieron 1257 coincidencias (con hongos) en la tabla de OTU.
     
 Al utilizar un min_length= 300:
 
-> Durante el pre-procesamiento 205,170 reads fueron descartadas por ser muy cortas (< 300 bp) y al final se obtuvieron 90,739 reads de salida ya que fueron validas. 
+* Durante el pre-procesamiento 205,170 reads fueron descartadas por ser muy cortas (< 300 bp) y al final se obtuvieron 90,739 reads de salida ya que fueron validas. 
     
-> Durante el primer filtrado entraron 90,739 reads de las cuales 24,331 pasaron, ademas se obtuvieron 552 OTUs validadas y 85,315 reads fueron asignadas a las OTUs (94 %).
+* Durante el primer filtrado entraron 90,739 reads de las cuales 24,331 pasaron, ademas se obtuvieron 552 OTUs validadas y 85,315 reads fueron asignadas a las OTUs (94 %).
     
-> Al hacer el filtrado de la tabla de OTU (index bleed) se observo que en un inicio esta contenía 12 muestras, 552 OTUs y 85,315 reads y al final del filtrado la tabla permaneció igual a excepción de los reads los cuales disminuyeron a 85,243.
+* Al hacer el filtrado de la tabla de OTU (index bleed) se observo que en un inicio esta contenía 12 muestras, 552 OTUs y 85,315 reads y al final del filtrado la tabla permaneció igual a excepción de los reads los cuales disminuyeron a 85,243.
     
-> Por último, al hacer la asignación de taxonomía a cada OTU se encontraron 223 OTUs que no pertenecían a hongos y se escribieron 329 coincidencias (con hongos) en la tabla de OTU.
+* Por último, al hacer la asignación de taxonomía a cada OTU se encontraron 223 OTUs que no pertenecían a hongos y se escribieron 329 coincidencias (con hongos) en la tabla de OTU.
 
 ## Conclusión 
 
